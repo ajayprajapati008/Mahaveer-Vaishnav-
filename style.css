@@ -1,0 +1,231 @@
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff8f0;
+      color: #333;
+    }
+
+.main-header {
+  background: linear-gradient(
+    to right,
+    rgba(128, 0, 0, 0.85),
+    rgba(255, 153, 51, 0.80)
+  );
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  color: white;
+  padding: 20px;
+  text-align: center;
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+  
+}
+
+/* Top Row */
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Left Pandit Photo */
+.pandit-photo {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 4px solid white;
+  object-fit: cover;
+}
+
+/* Center Title */
+.header-center {
+  text-align: center;
+  flex: 1;
+}
+
+.header-center h1 {
+  margin: 0;
+  font-size: 32px;
+  letter-spacing: 2px;
+}
+
+.header-center p {
+  margin: 5px 0 0;
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/* Right Fire Image */
+.fire-photo {
+  width: 80px;
+  height: auto;
+}
+
+/* Navigation */
+.nav-menu {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-menu a:hover {
+  text-decoration: underline;
+}
+    .hero {
+      padding: 50px;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 28px;
+      color: darkred;
+    }
+
+    .hero button {
+      padding: 12px 20px;
+      margin: 10px;
+      border: none;
+      cursor: pointer;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+
+    .call {
+      background: green;
+      color: white;
+    }
+
+    .whatsapp {
+      background: #25d366;
+      color: white;
+    }
+
+    section {
+      padding: 40px;
+      max-width: 1000px;
+      margin-left: 10px;
+      margin-right: 10px;
+      background: linear-gradient(
+    to bottom,
+    rgba(128, 0, 0, 0.85),
+    rgba(255, 153, 51, 0.75)
+  );
+
+  backdrop-filter: blur(10px);
+
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+    .contact {
+      
+  background: linear-gradient(
+    to bottom,
+    rgba(212, 175, 55, 0.85),
+    rgba(255, 140, 0, 0.80)
+  );
+
+  backdrop-filter: blur(10px);
+  color: white;
+
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+    .swiper {
+  width: 90%;
+  height: 250px;
+  margin: auto;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero1 {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Video Background */
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Content ऊपर दिखे */
+.hero-content {
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.5);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+/* Button */
+.whatsapp-btn {
+  padding: 12px 20px;
+  background: #25d366;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+.pandit name {
+  text-align: centre;
+  
+}
+.insta-qr {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.insta-qr img {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  border: 2px solid white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
